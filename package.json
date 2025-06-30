@@ -1,0 +1,21 @@
+{
+  "name": "sample-ecommerce-app",
+  "version": "1.0.0",
+  "description": "- Sample static eCommerce app built using Vue.js as frame work and Vuex for state management - It has a simple flow of an eCommerce website   - View product listing   - Add to cart   - Check out   - Shipping - Should be all static pages, no server code gets involved - Has commands for running dev (hot reload) and run build",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.0",
+    "vue": "^3.5.17",
+    "vuex": "^4.1.0"
+  }
+}
