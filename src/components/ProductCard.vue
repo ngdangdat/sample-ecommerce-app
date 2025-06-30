@@ -76,7 +76,7 @@ export default {
 .add-to-cart-btn {
   width: 100%;
   padding: 12px;
-  background: #007bff;
+  background: #c82333;
   color: white;
   border: none;
   border-radius: 5px;
@@ -85,6 +85,6 @@ export default {
 }
 
 .add-to-cart-btn:hover {
-  background: #0056b3;
+  background: #a71e2a;
 }
 </style>
