@@ -144,7 +144,7 @@ export default {
 }
 
 .checkout-btn {
-  background: #28a745;
+  background: #dc3545;
   color: white;
   border: none;
   padding: 12px 24px;
