@@ -61,7 +61,7 @@ header {
 nav button {
   margin-left: 10px;
   padding: 10px 20px;
-  background: #007bff;
+  background: #dc3545;
   color: white;
   border: none;
   border-radius: 5px;
@@ -69,6 +69,6 @@ nav button {
 }
 
 nav button:hover {
-  background: #0056b3;
+  background: #c82333;
 }
 </style>
