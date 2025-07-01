@@ -43,3 +43,23 @@ Expected Vue.js component hierarchy:
 - Vuex actions should handle all cart operations and state transitions
 - Routing likely uses Vue Router for navigation between main views
 - Form validation needed for checkout and shipping inputs
+
+---
+
+# GitHub Issue Management System
+
+## Agent Configuration
+- **issue-manager** (multiagent:0.0): GitHub Issue Manager
+- **worker1-N** (multiagent:0.1-N): Issue Resolution Workers (N specified in setup.sh, default 3)
+
+## Your Role
+- **issue-manager**: @claude/instructions/issue-manager.md
+- **worker1-N**: @claude/instructions/worker.md
+
+## Message Sending
+```bash
+./claude/agent-send.sh [recipient] "[message]"
+```
+
+## Basic Flow
+GitHub Issues → issue-manager → workers → issue-manager → GitHub PRs

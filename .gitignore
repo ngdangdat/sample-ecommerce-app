@@ -1,1 +1,7 @@
 node_modules/**/*
+
+# GitHub Issue Management System
+worktree/
+tmp/
+logs/
+
